@@ -38,7 +38,7 @@ class Series1Test
 	/**
 	 * removes null values from an array
 	 */
-	//@Disabled
+	// @Disabled
 	@Test
 	public void RemoveNullElements() {
 		String arrayIn[] = { "a", "b", null, null, "false", "null" };
@@ -155,7 +155,7 @@ class Series1Test
 		String text = "Hello Kitty";
 		assertEquals("ello itty", Series1.removeCapitals(text));
 	}
-	
+
 	@Test
 	public void addingTwoNumbers() {
 		assertEquals(30, Series1.addingTwoNumbers(10, 20));
@@ -235,6 +235,5 @@ class Series1Test
 		assertEquals(true, Series1.isPeer(10));
 		assertEquals(false, Series1.isPeer(21));
 	}
-
 
 }
