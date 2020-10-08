@@ -203,7 +203,11 @@ public class Series1 {
 	}
 
 	public static String getDomainName(String email) {
-		return email.replaceAll("(^.*@|.com$)", "");
+		// 18
+		System.out.println(email);
+		String[] list = email.split("@");
+		String[] domain = list[1].split(".com");
+		return domain[0];
 	}
 
 	public static int[] letterPosition(String name) {

@@ -19,6 +19,7 @@ public class Series2 {
 				results.add(elements.get(j));
 			}
 		}
+
 		return results;
 	}
 
