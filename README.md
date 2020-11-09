@@ -2,4 +2,4 @@
 
 Projet d'entrainement au code Java
 
-![Coding](https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif)
+*Assigné dans le cadre de la formation au développement web et Java Simplon
